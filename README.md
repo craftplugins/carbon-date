@@ -1,4 +1,4 @@
-<img src="https://rawgit.com/joshuabaker/craft-carbon-date/master/resources/icon.svg" width="72">
+<img src="./carbondate/resources/icon.svg" width="72">
 
 # Carbon Date plugin for Craft CMS
 
