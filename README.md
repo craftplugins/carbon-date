@@ -1,12 +1,14 @@
-<img src="./carbondate/resources/icon.svg" width="72">
+> [!IMPORTANT]
+>
+> **This plugin is no longer maintained.**
 
-# Carbon Date plugin for Craft CMS
+# Carbon Date
 
-Provides access to methods of Brian Nesbitt’s popular [Carbon date extension](https://github.com/briannesbitt/Carbon) for DateTime.
+A [Craft CMS](https://craftcms.com/) plugin that provides template access to methods of Brian Nesbitt’s popular [Carbon extension](https://github.com/briannesbitt/Carbon) for date/time handling.
 
-## Using Carbon Date
+## Usage
 
-```jinja
+```twig
 {# Gets the current date/time #}
 {{ 'now'|carbon }}
 
@@ -22,5 +24,5 @@ Provides access to methods of Brian Nesbitt’s popular [Carbon date extension](
 {# Carbon can also handle relative date differences #}
 {% set since = '3 weeks ago'|carbon %}
 {% set until = '2 weeks ago'|carbon %}
-{{ since.diffForHumans(until) }}{# 1 week before #}
+{{ since.diffForHumans(until) }} {# Outputs “1 week before” #}
 ```
