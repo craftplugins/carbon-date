@@ -2,7 +2,7 @@
 >
 > **This plugin is no longer maintained.**
 
-# Carbon Date
+# Carbon Date plugin for Craft CMS
 
 A plugin for [Craft CMS](https://craftcms.com/) that provides template access to methods of Brian Nesbitt’s popular [Carbon extension](https://github.com/briannesbitt/Carbon) for date/time handling.
 
